@@ -1,11 +1,11 @@
-import img1 from "../../assets/Images/cup/Rectangle 9.png"
-import img2 from "../../assets/Images/cup/Rectangle 10.png"
-import img3 from "../../assets/Images/cup/Rectangle 11.png"
-import img4 from "../../assets/Images/cup/Rectangle 12.png"
-import img5 from "../../assets/Images/cup/Rectangle 13.png"
-import img6 from "../../assets/Images/cup/Rectangle 14.png"
-import img7 from "../../assets/Images/cup/Rectangle 15.png"
-import img8 from "../../assets/Images/cup/Rectangle 16.png"
+import img1 from "../../assets/Images/Rectangle 9.png"
+import img2 from "../../assets/Images/Rectangle 10.png"
+import img3 from "../../assets/Images/Rectangle 11.png"
+import img4 from "../../assets/Images/Rectangle 12.png"
+import img5 from "../../assets/Images/Rectangle 13.png"
+import img6 from "../../assets/Images/Rectangle 14.png"
+import img7 from "../../assets/Images/Rectangle 15.png"
+import img8 from "../../assets/Images/Rectangle 16.png"
 
 const Follow = () => {
     return (

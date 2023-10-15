@@ -4,6 +4,7 @@ import Home from "../Pages/Home/Home";
 import AddCoffee from "../Pages/AddCoffee/AddCoffee";
 import Details from "../Pages/Details/Details";
 import Update from "../Pages/Update/Update";
+import Error from "../Pages/Error/Error";
 
 
 
@@ -11,6 +12,7 @@ export const router = createBrowserRouter([
     {
       path: "/",
       element: <Root/>,
+      errorElement: <Error/>,
       children: [
         {
           path: "/",
