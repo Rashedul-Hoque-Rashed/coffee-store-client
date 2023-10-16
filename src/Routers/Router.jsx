@@ -5,6 +5,7 @@ import AddCoffee from "../Pages/AddCoffee/AddCoffee";
 import Details from "../Pages/Details/Details";
 import Update from "../Pages/Update/Update";
 import Error from "../Pages/Error/Error";
+import SingUp from "../Pages/SingUp/SingUp";
 
 
 
@@ -31,6 +32,10 @@ export const router = createBrowserRouter([
           path: "/update/:id",
           element: <Update/>,
           loader: ({params}) => fetch(`http://localhost:5000/coffee/${params.id}`)
+        },
+        {
+          path: "sing_up",
+          element: <SingUp/>
         }
       ]
     },
