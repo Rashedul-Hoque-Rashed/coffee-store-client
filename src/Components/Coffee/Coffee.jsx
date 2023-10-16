@@ -12,7 +12,7 @@ const Coffee = () => {
 
     const [coffees, setCoffees] = useState([]);
     useEffect(() => {
-        fetch('http://localhost:5000/coffee')
+        fetch('https://coffee-store-server-khcf7qiid-rashedul-hoques-projects.vercel.app/coffee')
             .then(res => res.json())
             .then(data => setCoffees(data))
     }, [])
@@ -28,7 +28,7 @@ const Coffee = () => {
             confirmButtonText: 'Yes, delete it!'
           }).then((result) => {
             if (result.isConfirmed) {
-                fetch(`http://localhost:5000/coffee/${_id}`,{
+                fetch(`https://coffee-store-server-khcf7qiid-rashedul-hoques-projects.vercel.app/coffee/${_id}`,{
                     method: 'DELETE'
                 })
                 .then(res=>res.json())
